@@ -76,19 +76,7 @@ const typeEffect = () => {
 typeEffect();
 
 
-  // google sheets //
-
   
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbwrRZHBfslp6xx_j-BiP3Ma1_7YOnJCNtBGMtf-l9CP45fIGFygfk4PSbfkzdeDvjXNHA/exec'
-  const form = document.forms['google-sheet']
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-    alert("you succefully")
-
-    document.getElementById("myForm").reset();
-  })
 
  /* img slider */
  
