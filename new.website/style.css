@@ -348,11 +348,12 @@ body.dark .name button a{
     margin-top: 50px;
     margin-left: 120px;
     border-color:none;
-    background-color: #fff;
+    background-color: #FFF;
     width: 100px;
     height: 40px;
     border-radius: 5px;
 }
+
 body.dark .name button{
     background-color: #000;
     border-color: #fff;
@@ -426,6 +427,7 @@ body.dark .maleimg{
 	transition: 0.3s ease box-shadow;
     background-color: #fff;
     border-radius: 5px;
+   
 }
 .fullstack:hover{
     background-color: #fff;
@@ -489,7 +491,8 @@ body.dark .maleimg{
 @media (max-width: 790px) {
     .mservice{
         display: table;
-        background-color:#f0d8a5;
+        background-color:;
+        width: 100%;
     }
     .service{
         margin-top: 300px;
@@ -646,7 +649,7 @@ body.dark form h1{
     cursor: pointer;
     padding: 10px;
     border: none;
-    background-color: #333;
+    background-color: #FFBF00;
     color: #fff;
 }
 
